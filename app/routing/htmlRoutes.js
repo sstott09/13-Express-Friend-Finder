@@ -16,7 +16,7 @@ module.exports = function(app) {
   // ---------------------------------------------------------------------------
 
   app.get("/survey", function(req, res) {
-    res.sendFile(path.join(__dirname, "../public/survey.html"));
+    res.sendFile(path.join(__dirname, "/Users/stevenstott/DU/Code_Boot_Camp/Homework/13-Express-Friend-Finder/app/public/survey.html"));
   });
 
   // If no matching route is found default to home

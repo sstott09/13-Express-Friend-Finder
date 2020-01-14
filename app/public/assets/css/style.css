@@ -1,0 +1,8 @@
+body {
+    background-image: url(../images/dog-cat-banner.jpg); 
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: relative;
+    background-size: 100%;
+    margin-bottom: 350px
+}

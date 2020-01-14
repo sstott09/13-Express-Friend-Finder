@@ -1,7 +1,7 @@
 var friends = [
     {
-    "name":"Ahmed",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Bella",
+    "photo":"https://static.parade.com/wp-content/uploads/2018/03/golden-puppy-life-national-geographic-ftr.jpg",
     "scores":[
         5,
         1,
@@ -16,8 +16,8 @@ var friends = [
       ]
   },
   {
-    "name":"James",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Luna",
+    "photo":"https://images2.minutemediacdn.com/image/upload/c_crop,h_1190,w_2121,x_0,y_112/f_auto,q_auto,w_1100/v1576692274/shape/mentalfloss/610503-gettyimages-538041160.jpg",
     "scores":[
         4,
         3,
@@ -32,8 +32,8 @@ var friends = [
       ]
   },
   {
-    "name":"Scott",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Daisy",
+    "photo":"https://static.parade.com/wp-content/uploads/2018/03/dachsund-puppy-national-geographic-ftr.jpg",
     "scores":[
         3,
         2,
@@ -48,8 +48,8 @@ var friends = [
       ]
   },
   {
-    "name":"Lotus",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "name":"Oliver",
+    "photo":"https://www.lifewithcats.tv/wp-content/uploads/2016/06/Smoothie.png",
     "scores":[
         4,
         3,
