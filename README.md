@@ -5,41 +5,37 @@
 ...........................................................................................................
 
 ### Furry_Friend_Finder_Express
-In this version, you will find a new and updated layout that is a bit more aesthetically pleasing, informative, that also includes additional functionality.
+A matching tool to help you find a furry-friend that best matches your personality.
 
-* PORTFOLIO 
-    - Utilized the Carousel function to provide a quick glimsp at the current projects. When clicked on - each will direct you to the README file for each project.
+Looking for a new furry friend? Answer 10 simple questions and find dogs and/or cats who are compatible with you. You'll find a great companion in no time. 
+Access this site at: https://stark-escarpment-59115.herokuapp.com/.
 
-* PROFILE 
-    - Updated styling and copy detailing work history, skillset, and current workings.
-    - Included a link to a current resume.
+This is a full stack deployed website that matches the user up with a previous "furry-friend" that has similar answers to 10 questions that ask the user to rank statements on a scale of 1 (Strongly Disagree) to 5 (Strongly Agree).
 
-* WORK + EDUCATION
-    - Included click-able company logo's that will take you to directly to the official website for current and previous employers, as well as educational institutions.
-    - Included a link to a current resume.
+## Functionality
+The home page, which is the default path, has one button to access the survey. There is also a link that will display the API information for all existing "furry-friends" in JSON.
 
-* PROJECTS
-    - A list of click-able projects that will direct the user to the active application/project/game
-
-### Objective
-1. Pin some GitHub Repos that I want to share.
-2. Employer Ready (e.g., Name, Links to GitHub/SM/LinkedIn, as well as email address & Phone # {see resume})
-3. A link to current resume PDF.
-4. A list of projects (title, link, and link to code).
-5. Design - mobile friendly (responsive).
-6. Employer Competitive (Updated LinkedIn with projects, updated Readme files to include problem, solution and technical approach).
-7. Competitive Design (e.g., Polished).
-
-### Demo
-Demo Site: 
-[This link will take you to my customized GitHub pinned repositories](https://github.com/sstott09)
-[This link will take you to my revised Portfolio](https://sstott09.github.io/09-Portfolio3/)
+## Technical Features
+This application uses express to create a server that drives the content rendered to the page.
+Express is also used to create an API for loading content and posting information from a new user.
+There are two HTML pages and one page that displays the API content in JSON.
 
 ## Requirements
- * [AJAX]       https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
- * [Bootstrap]  https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js
+If you are running from the deployed Heroku site, then there are no requirements to use. You can access directly at https://stark-escarpment-59115.herokuapp.com/
+Can also be found on GitHub at https://github.com/sstott09/13-Express-Friend-Finder
+
+If you would like to fork this application and run directly, then you will need to run: npm install in the local folder.
+
+Then run node server.js in the command line. If successful, the console will confirm the PORT that it is running. You will need to visit http://localhost:8080 to test the funcationality.
 
 ## Build Tools
- * AJAX
- * Bootstrap
- * Carousel
+* [Node.js] v10.16.3
+* [Node packages]
+    * express v4.17.1 (https://www.npmjs.com/package/express)
+    * path v0.12.7 (https://www.npmjs.com/package/path)
+* [Bootstrap]  https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css
+* [jQuery]     https://code.jquery.com/jquery-3.4.1.min.js
+* [AJAX]       https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
+* [Chosen]     https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css
+* [Font_Awesome] https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css
+* [Deployed_on_Heroku]
