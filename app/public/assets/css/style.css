@@ -6,3 +6,8 @@ body {
     background-size: 100%;
     margin-bottom: 350px
 }
+
+.container {
+    margin-top: -20px;
+    height: auto
+}
