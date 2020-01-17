@@ -1,10 +1,10 @@
 ## University of Denver 
 ## Class: DU_VIRT_FSF_PT_09_2019_U.O.MW
 ## Program: Full Stack Flex Online Part-Time
-# 13-Friend-Finder
+## 13-Express-Friend-Finder
 ...........................................................................................................
 
-### Furry_Friend_Finder_Express
+## Furry_Friend_Finder_Express
 A matching tool to help you find a furry-friend that best matches your personality.
 
 Looking for a new furry friend? Answer 10 simple questions and find dogs and/or cats who are compatible with you. You'll find a great companion in no time. 
