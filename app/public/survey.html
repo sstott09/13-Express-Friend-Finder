@@ -180,6 +180,7 @@
             </div>
             <div class="modal-body">
               <h2 id="match-name"></h2>
+              <img src="" alt="Friend Name" id="match-img" width="100%">
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -216,25 +217,25 @@
           event.preventDefault();
 
           // Form validation
-          // function validateForm() {
-          //   var isValid = true;
-          //   $(".form-control").each(function () {
-          //     if ($(this).val() === "") {
-          //       isValid = false;
-          //     }
-          //   });
+          function validateForm() {
+            var isValid = true;
+            $(".form-control").each(function () {
+              if ($(this).val() === "") {
+                isValid = false;
+              }
+            });
 
-          //   $(".chosen-select").each(function () {
+            $(".chosen-select").each(function () {
 
-          //     if ($(this).val() === "") {
-          //       isValid = false;
-          //     }
-          //   });
-          //   return isValid;
-          // }
+              if ($(this).val() === "") {
+                isValid = false;
+              }
+            });
+            return isValid;
+          }
 
           // If all required fields are filled
-          // if (validateForm()) {
+          if (validateForm()) {
             // Create an object for the user"s data
             var userData = {
               name: $("#name").val(),
@@ -259,18 +260,18 @@
                 $("#match-img").attr("src", data.photo);
 
               // Show the modal with the best match
-                $("#results-modal").modal("show");
+                $("#results-modal").modal("toggle");
             });
 
               // Grab the result from the AJAX post so that the best match's name and photo are displayed.
 
 
             
-          }); 
-        //   else {
-        //     alert("Please fill out all fields before submitting!");
-        //   }
-        // });
+          }
+          else {
+            alert("Please fill out all fields before submitting!");
+          }
+        });
       </script>
 
 </body>

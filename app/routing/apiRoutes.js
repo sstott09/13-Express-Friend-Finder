@@ -14,12 +14,12 @@ app.post("/api/friends", function(req, res) {
     var userScores = 0;
     var bestFriend;
     for (var i = 0; i < req.body.scores.length; i++) {
-        userScores += req.body.scores[i];
+        userScores += parseInt(req.body.scores[i]);
     }
     for (var i = 0; i < friends.length; i++) {
         var friendScores = 0;
         for (var x = 0; x < friends[i].scores.length; x++){
-            friendScores += friends[i].scores[x];
+            friendScores += parseInt(friends[i].scores[x]);
         }
         var sum = Math.abs(friendScores - userScores);
         if (sum < score) {
